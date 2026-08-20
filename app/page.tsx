@@ -13,7 +13,7 @@ export default function Home() {
           <span className="mark" aria-hidden="true" />
           <span>Ringarogy Group</span>
         </a>
-        <p className="navNote">Independent LLC <span>·</span> Long horizon</p>
+        <p className="navNote">Independent LLC </p>
       </header>
 
       <main id="top" className="main">
@@ -24,7 +24,7 @@ export default function Home() {
             <em>Interested</em> in everything.
           </h1>
           <p className="thesis">
-            Built with a long horizon: to become thoughtful owners of <strong>hard assets, technology, intellectual property, and human capital.</strong>
+            Built with a long horizon: thoughtful owners of <strong>intellectual property and human capital.</strong>
           </p>
         </section>
 
@@ -45,10 +45,10 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <p className="origin"><strong>Rooted in Ringarogy Island</strong> — a small seaside community and the place our founder&apos;s grandfather called home.</p>
+        <p className="origin"><strong>Inspired by Ringarogy Island</strong> — a small seaside community.</p>
         <div className="horizon" aria-label="Our outlook">
-          <span>Atlantic edge</span>
-          <span>Long horizon</span>
+          <span></span>
+          <span></span>
         </div>
       </footer>
     </div>
