@@ -4,6 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://ringarogy.com"),
   title: "Ringarogy Group",
+  icons: { icon: "/favicon.svg" },
   description: "Masters of none, interested in everything. Ringarogy Group is an independent LLC with a long-term interest in hard assets, technology, intellectual property, and human capital.",
   openGraph: {
     title: "Ringarogy Group",
