@@ -45,7 +45,7 @@ export default function Home() {
       </main>
 
       <footer className="footer">
-        <p className="origin"><strong>Inspired by Ringarogy Island</strong> — a small seaside community.</p>
+        <p className="origin">Inspired by <strong>Ringarogy Island</strong> — a small seaside community.</p>
         <div className="horizon" aria-label="Our outlook">
           <span></span>
           <span></span>
