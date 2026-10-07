@@ -6,10 +6,12 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "predev": "node scripts/sync-projects.mjs || true",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --ignore-pattern out --ignore-pattern .next",
+    "sync": "node scripts/sync-projects.mjs",
     "deploy": "next build && wrangler deploy"
   },
   "dependencies": {

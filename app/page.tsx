@@ -1,9 +1,7 @@
-const projects = [
-  { name: "Parlay Conch", href: "https://parlayconch.com" },
-  { name: "Parallel Cals", href: "https://parallel-cals.com" },
-  { name: "Enume Tracker", href: "https://enume-tracker.com" },
-  { name: "NDAZ", href: "https://ndaz.app" },
-];
+// Generated from the Obsidian vault by `npm run sync`.
+import projects from "./projects.json";
+
+const projectCount = String(projects.length).padStart(2, "0");
 
 export default function Home() {
   return (
@@ -29,7 +27,7 @@ export default function Home() {
         </section>
 
         <aside className="side" aria-labelledby="projects-title">
-          <p id="projects-title" className="sideLabel">Works in progress <span>·</span> 01—04</p>
+          <p id="projects-title" className="sideLabel">Works in progress <span>·</span> 01—{projectCount}</p>
           <ul className="projects">
             {projects.map((project) => (
               <li key={project.href}>
